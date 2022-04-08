@@ -1,7 +1,9 @@
 from setuptools import setup
 
+from reticulok import __version__
+
 
 if __name__ == "__main__":
     setup(
-        version="0.0.3"
+        version=__version__
     )
