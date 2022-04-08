@@ -1,5 +1,6 @@
 import pytest
-from reticulok.leetcode.easy import two_sum
+
+from reticulok.leetcode.easy import *
 
 
 def test_two_sum_correct():
