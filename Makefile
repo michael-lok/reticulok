@@ -16,5 +16,15 @@ docker-build:
 		.
 
 
+# run a new container with the particular version of python
 docker-bash:
-	docker run -ti $(docker_tag)-$(python_version) bash
+	docker run \
+		-ti \
+		--name $(docker_tag)-$(python_version) \
+		$(docker_tag)-$(python_version) \
+		bash
+
+
+# if the container has already been initiated, re-enter using docker exec
+docker-exec:
+	docker exec -ti $(docker_tag)-$(python_version) bash

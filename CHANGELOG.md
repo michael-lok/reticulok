@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.0.3
+
+### Changed
+* `reticulok.leetcode.int_to_roman` now utilizes `collections.OrderedDict` to ensure order of numeral mapping is respected
+* Python 3.5 now supported
+
 ## 0.0.2
 
 ### Added
