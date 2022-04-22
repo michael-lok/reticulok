@@ -1,6 +1,6 @@
 import pytest
 
-from reticulok.miscellaneous import get_nth_highest_sold
+from reticulok.misc import get_nth_highest_sold
 
 
 def test_books_sold_correct():

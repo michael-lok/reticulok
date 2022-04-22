@@ -1,9 +1,9 @@
-from typing import List
+from typing import List, Tuple
 
 
 def get_nth_highest_sold(
-    books: List[tuple[float, int]], n: int
-    ) -> tuple[float, int]:
+    books: List[Tuple[float, int]], n: int
+    ) -> Tuple[float, int]:
     """
     Find the nth highest sold book from a list of books. The first
     element in each tuple represents the price; the second represents
